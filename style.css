@@ -85,12 +85,7 @@ i {
     color: #aaa;
     font-style: italic;
 }
- /*delete*/
-ul {
-    margin: 5px 7px;
-    list-style: square;
-}
- 
+
 img {
     opacity: 1;
     filter: alpha(opacity=100);
