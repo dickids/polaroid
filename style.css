@@ -1,0 +1,197 @@
+/* css info:
+if you want to change the colors in the code that is alright, just find the colors in the code.
+
+post bg color: #fff
+text color: #ccc
+bold color: #999
+link hover color: #ddd
+*/
+
+* {
+        margin: 0px;
+        padding: 0px;
+}
+ 
+
+#s-m-t-tooltip {
+    max-width: 200px;
+    padding: 5px;
+    margin: 7px 3px 3px 10px;
+    background: #fff;
+    font: 8px trebuchet;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    color: #ccc;
+    -webkit-box-shadow: 2px 2px 2px rgba(75, 75, 75, 0.1);
+    -moz-box-shadow: 2px 2px 2px rgba(75, 75, 75, 0.1);
+    box-shadow: 2px 2px 2px rgba(75, 75, 75, 0.1);
+    z-index: 9999999;
+}
+ 
+/* scrollbar */
+
+::-webkit-scrollbar{
+    height: 7px;
+    width: 13px;
+}
+ 
+::-webkit-scrollbar-track-piece{
+    background-color: #fff;
+}
+ 
+::-webkit-scrollbar-thumb{
+    background-color: #bbb;
+    border: 6px solid #fff;
+}
+
+
+ 
+body {
+
+    background: #fff;
+     -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+    align-content: center;
+}
+ 
+/* cursors. to change cursor, find a picture of a cursor you like and replace the picture link. */
+ 
+*, body, a{
+    cursor: url(https://78.media.tumblr.com/232c090ebdd37ae4bc17adb54e1e0344/tumblr_inline_ol4nwhvSwg1uxxza6_540.png), auto;
+}
+ 
+a:hover{
+    cursor: url(https://78.media.tumblr.com/6fb38fc5e97353c67e3fc3a2e2b29bf9/tumblr_inline_ol4nwisGdu1uxxza6_540.png), auto;
+    color: #555;
+    text-decoration: none;
+    font-style: italic;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition-duration: all 0.7s ease-in-out;
+}
+ 
+a {
+    color: #ddd;
+}
+ 
+b, strong{
+    font-style: bold;
+}
+ 
+i {
+    color: #aaa;
+    font-style: italic;
+}
+ /*delete*/
+ul {
+    margin: 5px 7px;
+    list-style: square;
+}
+ 
+img {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+}
+ 
+h1 {
+    margin: 10px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #484848;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+}
+ 
+h2 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #484848;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+}
+ 
+#header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 85px;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    -webkit-box-shadow: 3px 3px 3px rgba(75, 75, 75, 0.1);
+    -moz-box-shadow: 3px 3px 3px rgba(75, 75, 75, 0.1);
+    box-shadow: 3px 3px 3px rgba(75, 75, 75, 0.1);
+    z-index: 999999;
+    margin-bottom: 300px;
+}
+ 
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+} 
+ 
+#title {
+    margin-top: 5px;
+    margin-bottom: -5px;
+    padding: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+     text-align: center;
+}
+
+#title a {
+    color: #484848;
+    text-decoration: none;
+}
+ 
+#navi {
+    margin-top: 5px;
+    font: 9px trebuchet;
+    letter-spacing: 0.75px;
+    text-transform: lowercase;
+    margin-bottom: 15px;
+}
+
+#navi img {
+    height: 10px;
+    margin-top: 5px;
+    margin-bottom: -2px;
+    padding: 3px;
+}
+ 
+#content {
+    margin-top: 100px;    
+}
+ 
+.post {
+    margin: 30px;
+    padding: 10px;
+    width: 250px;
+    font: 9px trebuchet;
+    color: #cccccc;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 5px 10px #c8c8c8;
+ }
+
+.post:hover img{
+     opacity: 0.7;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition-duration: all 0.5s ease-in-out;
+}
+ 
+.post a {
+    text-align: center;
+}
