@@ -164,11 +164,6 @@ p {
  
 #content {
     margin-top: 100px;  
-        /*
-    align-content: center;
-        margin-left: auto;
-        margin-right: auto;
-      */
 }
  
 .post {
@@ -180,7 +175,6 @@ p {
     background: #fff;
     border: 1px solid #ccc;
     box-shadow: 5px 10px #c8c8c8;
-    align-content: center;
  }
 
 .post:hover img{
@@ -196,11 +190,3 @@ p {
 .post a {
     text-align: center;
 }
-/*
-.center {
-        display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-}
-*/
