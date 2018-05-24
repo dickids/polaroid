@@ -186,10 +186,6 @@ p {
     -o-transition: all 0.5s ease-in-out;
     transition-duration: all 0.5s ease-in-out;
 }
-
-.post img {
-        width: 250px;
-}
  
 .post a {
     text-align: center;
