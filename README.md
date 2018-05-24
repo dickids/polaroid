@@ -17,7 +17,7 @@
 
 <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
 
-<link rel="stylesheet" type="text/css" href="polaroid.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 
 <title>polaroid</title>
  
